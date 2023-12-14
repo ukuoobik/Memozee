@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memozee</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" href="LOGOOO.png">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="brand">
+                <img src="LOGOOO.png">
+            </div>
+
+            <button aria-label="toggle menu" id="togglebtn">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                    fill="none" 
+                    viewBox="0 0 24 24" 
+                    stroke-width="1.5" 
+                    stroke="currentColor" 
+                    class="openIcon">
+                    
+                    <path stroke-linecap="round" 
+                        stroke-linejoin="round" 
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                    fill="none" 
+                    viewBox="0 0 24 24" 
+                    stroke-width="1.5" 
+                    stroke="currentColor" 
+                    class="closeIcon">
+
+                    <path stroke-linecap="round" 
+                        stroke-linejoin="round" 
+                        d="M6 18L18 6M6 6l12 12" />
+                </svg>  
+            </button>
+
+            <div class="navbar_link">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#flashcards">Flashcards</a></li>
+                    <li><a href="#tests">Tests</a></li>
+
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+
+    <main>
+        <div id="everythingcontainer">
+
+            <section id="home">
+                <h1>Home</h1>
+                <div id="homepagetext">
+                </div>
+            </section>
+        
+            <section id="flashcards">
+                <h1>Flashcards</h1>                    
+                    <div class="container">
+                        <div id="container" class="card">
+                            <div class="front"></div>
+                            <div class="back">
+                                <a href="Flashcards.html">Try Flashcards Now</a>
+                            </div>
+                        </div>    
+                    </div>
+                        <br>
+                    <div>
+                    </div>
+            </section>
+
+
+
+            <section id="tests">
+                <h1>Tests</h1>         
+                <div id="testcontainer"class="testcontainer">
+                    <p class="testtext">Tests coming soon</p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+</body>
+</html>

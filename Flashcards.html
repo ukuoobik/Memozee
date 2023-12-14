@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Div näitamine</title>
+  <link href="Flashcards.css" rel="stylesheet">
+  <link rel="icon" href="LOGOOO.png">
+  <script src="Flashcards.js"></script>
+</head>
+<body>
+
+  <input type="text" id="questionInput" placeholder="Sisesta küsimus">
+  <input type="text" id="answerInput" placeholder="Sisesta vastus">
+  <button onclick="createDiv()">Lisa kaart</button>
+  <button id="saveCards" onclick="saveCards()">Salvesta kaardid</button>
+  <button onclick="deleteAllCards()">Eemalda kõik kaardid</button>
+  <button onclick="editCards()">Muuda kaarte</button>
+  <button onclick="saveEdits()">Salvesta muudatused</button>
+  <button onclick="deleteSaved()">Kustuta salvestatud kaardid</button>
+
+  <div id="savedCardsContainer"></div>
+  <div id="divContainer"></div>
+   
+  </body>
+</body>
+</html>
