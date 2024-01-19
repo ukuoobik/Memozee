@@ -84,10 +84,11 @@ button {
   cursor: pointer;
   width: auto;
   height: 50px;
-  background-color: #53B3CB;
+  background-image: linear-gradient(to bottom right,rgb(255, 151, 151), rgb(92, 230, 255));
   border: solid;
-  border: blue;
+  border-color: black;
   border-radius: 5px;
+  border-width: 2px;
 }
 
 button:hover{
